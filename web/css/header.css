@@ -1,0 +1,269 @@
+/*顶部导航*/
+.header_div1 {
+    padding: 0.5%;
+}
+
+.search {
+    width: 35%;
+    margin-top: 2%;
+    font-size: 16px;
+    padding-top: 5px;
+    padding-right: 3%;
+    padding-left: 10px;
+    border-radius: 5px;
+    padding-bottom: 5px;
+    background-position: 99%;
+    border: 2px solid #991010;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-image: url("../image/camera.png");
+}
+
+.search:focus {
+    outline: none;
+}
+
+.search_a {
+    color: white;
+    margin-left: 2%;
+    text-decoration: none;
+}
+
+.search_a i {
+    color: white;
+}
+
+.search_as {
+    color: white;
+    padding-top: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 1%;
+    text-decoration: none;
+    background-color: #991010;
+}
+
+.search_as i {
+    color: white;
+}
+
+.search_as:hover {
+    background-color: #710e0f;
+}
+
+.header_ass {
+    margin-left: 5%;
+}
+
+.header_div2_ul_navicon {
+    display: none;
+}
+
+.header_div2_ul {
+    display: block;
+}
+
+.header_div2 ul {
+    padding: 0;
+}
+
+.header_div2_ul {
+    margin-bottom: 0;
+}
+
+.header_div2 ul li {
+    float: left;
+    list-style: none;
+    padding-top: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 1%;
+}
+
+
+.header_div2 ul li a {
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-decoration: none;
+}
+
+.header_div2 ul li:hover {
+    background-color: #710e0f;
+}
+.navicon:hover{
+    background-color: #991010;
+}
+/*登录模态框*/
+
+#exampleModal div h6 {
+    visibility: hidden;
+}
+
+.the_login_div input:focus {
+    border: 2px solid #991010;
+    box-shadow: 0 0 10px 0 #991010;
+}
+
+#login {
+    color: white;
+    border: 0;
+    background-color: #991010;
+}
+
+
+/*注册模态框*/
+.the_registered_div input:focus {
+    border: 2px solid #991010;
+    box-shadow: 0 0 10px 0 #991010;
+}
+
+#exampleModals div h6 {
+    visibility: hidden;
+}
+
+#registered, #get_verification_code {
+    color: white;
+    border: 0;
+    background-color: #991010;
+}
+
+header .modal-body, header .modal-footer {
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+.modal-dialog {
+    margin: 10px auto;
+}
+
+header h6{
+    color: #991010;
+}
+
+.the_registered_div input{
+    letter-spacing: 2px;
+}
+
+.buyjudgment{
+    margin-right: 2%;
+}
+
+@media (min-width: 750px) and (max-width: 1024px) {
+    .search {
+        width: 45%;
+        margin-top: 2%;
+        font-size: 13px;
+        padding-top: 5px;
+        padding-right: 3%;
+        padding-left: 10px;
+        padding-bottom: 5px;
+    }
+
+    .search_a i {
+        font-size: 1.8rem;
+    }
+
+    .search_as {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    .search_as i {
+        font-size: 1.8rem;
+    }
+
+    .modal-dialog {
+        margin: 10% auto;
+    }
+
+}
+
+@media (max-width: 749px) {
+    .search {
+        width: 55%;
+        margin-top: 0.5%;
+        font-size: 8px;
+        padding-right: 2%;
+        padding-left: 8px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+
+    .search_a {
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+
+    .search_a i {
+        font-size: 1rem;
+    }
+
+    .search_as i {
+        font-size: 1rem;
+    }
+
+    .fa-shopping-cart {
+        margin-left: 2%;
+    }
+
+    .fa-user-circle-o {
+        margin-right: 4%;
+    }
+
+    .header_ass {
+        margin-left: 2%;
+    }
+
+    .header_div2_ul_navicon {
+        display: block;
+    }
+
+    .header_div2_ul {
+        display: none;
+    }
+
+    .header_div2 ul li {
+        float: none;
+    }
+
+    .modal-dialog {
+        margin: 20% auto;
+    }
+
+    /*#search_as_username{
+        font-size: 0.4em;
+    }*/
+}
+
+@media (max-width: 770px) {
+    .modal-dialog {
+        width: 80%;
+    }
+}
+
+@media (max-width: 570px) {
+    .search {
+        width: 40%;
+        margin-top: 0.5%;
+        font-size: 5px;
+        padding-right: 2%;
+        padding-left: 8px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        background-size: 0 0;
+        background-repeat: no-repeat;
+        background-image: url("../image/camera.png");
+    }
+
+    .header_div1>a{
+        font-size: 1.1rem;
+    }
+}
+
+
+@media (max-width: 400px) {
+    .modal-dialog {
+        width: 95%;
+    }
+}

@@ -1,0 +1,82 @@
+#the_shopping_cart, #the_shopping_cart02 {
+    width: 100%;
+}
+
+#the_shopping_cart tr th {
+    color: #ac2925;
+    background-color: #E4F0FE;
+}
+
+#the_shopping_cart tr th, #the_shopping_cart tr td {
+    padding: 1%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#the_shopping_cart02 tr th, #the_shopping_car02 tr td {
+    padding: 1%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#the_shopping_cart td img {
+    width: 15%
+}
+
+#the_shopping_cart .book_information {
+    text-align: left;
+}
+
+#the_shopping_cart .the_shopping_cart_money_h5 {
+    text-decoration: line-through;
+    color: #999999;
+}
+
+#the_shopping_cart .the_shopping_moneys {
+    color: red;
+}
+
+#the_shopping_cart .the_shopping_cart_count {
+    width: 90%;
+    text-align: center;
+}
+
+#operation a{
+    color: white;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.operation_a02{
+    background-color: #ff2134;
+}
+
+.operation_a01{
+    background-color: #afafaf;
+}
+
+.operation_a02:hover {
+    background-color: #991010;
+}
+
+.operation_a01:hover {
+    background-color: #5d5d5d;
+}
+
+
+@media (max-width: 650px) {
+    #the_shopping_cart td img {
+        width: 35%
+    }
+
+    .book_information_a, .ordernumber {
+        display: block;
+        font-size: 2px;
+        margin-left: 0;
+    }
+
+}

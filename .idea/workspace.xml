@@ -1,0 +1,1527 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="OnlineBookstore:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3f50d816-b29d-4804-9f58-47de42c3af38" name="Default Changelist" comment="OnlineBookstore javaweb版">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/OnlineBookstore_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/OnlineBookstore_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/activation.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/javax_persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineBookstore.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/activation.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/c3p0-0.9.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/commons-beanutils-1.9.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/commons-dbcp2-2.6.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/commons-dbutils-1.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/commons-email-1.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/commons-io-2.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/druid-1.0.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/httpclient-4.5.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/httpcore-4.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/itcast-tools-1.4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/jackson-annotations-2.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/jackson-core-2.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/jackson-databind-2.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/javax.annotation.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/javax.ejb.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/javax.jms.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/javax.persistence.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/javax.resource.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/javax.servlet.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/javax.servlet.jsp.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/javax.servlet.jsp.jstl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/javax.transaction.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/jstl-impl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/mail.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/mchange-commons-java-0.2.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/mysql-connector-java-5.1.39-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/spring-beans-5.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/spring-core-5.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/spring-jdbc-5.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/spring-tx-5.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/standard-1.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war/OnlineBookstore_war.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/classes/META-INF/OnlineBookstore.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/classes/bean/BookInformation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/classes/bean/BookUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/classes/bean/CenterUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/classes/bean/CenterUsers.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/classes/bean/ShoppingCart.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/classes/bean/TheShoppingCartBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/classes/bean/TheShoppingCartFilterBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/classes/bean/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/classes/c3p0-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/classes/dao/BaseDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/classes/dao/DBUtilsDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/classes/dbcpconfig.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/classes/eg/Eg01.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/classes/util/C3P0JDBCUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/classes/util/C3p0Utils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/classes/util/Dates.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/classes/util/JDBCUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/classes/utilityclass/HomePage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/classes/web/filter/BookCateGoryPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/classes/web/filter/CharchaterFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/classes/web/filter/PersonalCenterFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/classes/web/filter/TheShoppingCartFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/classes/web/servlet/EmailVerificationCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/classes/web/servlet/Exits.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/classes/web/servlet/Index.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/classes/web/servlet/Paging.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/classes/web/servlet/PersonalCenter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/classes/web/servlet/Registered.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/classes/web/servlet/TheLogin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/classes/web/servlet/TheShoppingCart.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/classes/web/servlet/TheShoppingDelete.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/lib/activation.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/lib/c3p0-0.9.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/lib/commons-beanutils-1.9.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/lib/commons-dbcp2-2.6.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/lib/commons-dbutils-1.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/lib/commons-email-1.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/lib/commons-io-2.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/lib/druid-1.0.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/lib/httpclient-4.5.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/lib/httpcore-4.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/lib/itcast-tools-1.4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/lib/jackson-annotations-2.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/lib/jackson-core-2.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/lib/jackson-databind-2.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/lib/javax.annotation.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/lib/javax.ejb.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/lib/javax.jms.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/lib/javax.persistence.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/lib/javax.resource.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/lib/javax.servlet.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/lib/javax.servlet.jsp.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/lib/javax.servlet.jsp.jstl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/lib/javax.transaction.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/lib/jstl-impl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/lib/mail.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/lib/mchange-commons-java-0.2.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/lib/mysql-connector-java-5.1.39-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/lib/spring-beans-5.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/lib/spring-core-5.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/lib/spring-jdbc-5.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/lib/spring-tx-5.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/lib/standard-1.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/bookcategorypage/academic.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/bookcategorypage/foreignlanguagelearning.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/bookcategorypage/livetolearn.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/bookcategorypage/motivational.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/bookcategorypage/psychology.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/bookcategorypage/socialscience.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/bookcategorypage/technology.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/bookinformation/bookinformation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/bookinformation/bookinformation.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/css/bookinformation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/css/header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/css/personalcenter.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/css/productdetails.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/css/theshoppingcart.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/footer/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/footer/footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/header/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/header/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/image/bookstore_logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/image/camera.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/image/collection.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/image/economic_management/economic_management01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/image/help.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/image/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/image/me.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/image/more.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/image/psychology/psychology01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/image/psychology/psychology02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/image/psychology/psychology03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/image/psychology/psychology04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/image/psychology/psychology05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/image/psychology/psychology06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/image/psychology/psychology07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/image/psychology/psychology08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/image/psychology/psychology09.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/image/psychology/psychology10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/image/psychology/psychology11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/image/psychology/psychology12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/image/psychology/psychology13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/image/psychology/psychology14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/image/psychology/psychology15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/image/psychology/psychology16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/image/psychology/psychology17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/image/psychology/psychology18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/image/psychology/psychology19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/image/psychology/psychology20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/image/psychology/psychology21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/image/psychology/psychology22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/image/psychology/psychology23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/image/psychology/psychology24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/image/psychology/psychology25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/image/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/image/searchs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/image/shopping_cart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/image/shufflingfigure01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/image/shufflingfigure02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/image/shufflingfigure03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/image/shufflingfigure04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/image/shufflingfigure05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/image/shufflingfigure06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/js/bookinformation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/js/header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/js/header2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/js/jquery-3.4.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/js/myDate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/js/pageturn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/js/personalcenter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/js/productdetails.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/js/theshoppingcart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/less/animated.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/less/bordered-pulled.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/less/core.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/less/fixed-width.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/less/font-awesome.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/less/icons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/less/larger.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/less/list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/less/path.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/less/rotated-flipped.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/less/screen-reader.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/less/stacked.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/personalcenter/personalcenter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/personalcenter/personalcenter.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/productdetails/productdetails.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/productdetails/productdetails.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/scss/_animated.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/scss/_bordered-pulled.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/scss/_fixed-width.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/scss/_larger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/scss/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/scss/_path.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/scss/_rotated-flipped.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/scss/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/scss/_stacked.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/scss/font-awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/theshoppingcart/theshoppingcart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/theshoppingcart/theshoppingcart.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OnlineBookstore/META-INF/OnlineBookstore.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OnlineBookstore/bean/BookInformation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OnlineBookstore/bean/BookUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OnlineBookstore/bean/CenterUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OnlineBookstore/bean/CenterUsers.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OnlineBookstore/bean/ShoppingCart.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OnlineBookstore/bean/TheShoppingCartBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OnlineBookstore/bean/TheShoppingCartFilterBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OnlineBookstore/bean/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OnlineBookstore/c3p0-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OnlineBookstore/dao/BaseDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OnlineBookstore/dao/DBUtilsDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OnlineBookstore/dbcpconfig.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OnlineBookstore/eg/Eg01.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OnlineBookstore/util/C3P0JDBCUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OnlineBookstore/util/C3p0Utils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OnlineBookstore/util/Dates.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OnlineBookstore/util/JDBCUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OnlineBookstore/utilityclass/HomePage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OnlineBookstore/web/filter/BookCateGoryPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OnlineBookstore/web/filter/CharchaterFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OnlineBookstore/web/filter/PersonalCenterFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OnlineBookstore/web/filter/TheShoppingCartFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OnlineBookstore/web/servlet/EmailVerificationCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OnlineBookstore/web/servlet/Exits.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OnlineBookstore/web/servlet/Index.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OnlineBookstore/web/servlet/Paging.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OnlineBookstore/web/servlet/PersonalCenter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OnlineBookstore/web/servlet/Registered.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OnlineBookstore/web/servlet/TheLogin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OnlineBookstore/web/servlet/TheShoppingCart.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OnlineBookstore/web/servlet/TheShoppingDelete.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bean/BookInformation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bean/BookUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bean/CenterUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bean/CenterUsers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bean/ShoppingCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bean/TheShoppingCartBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bean/TheShoppingCartFilterBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bean/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/c3p0-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao/BaseDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao/DBUtilsDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dbcpconfig.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/eg/Eg01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/C3P0JDBCUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/C3p0Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/Dates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/JDBCUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utilityclass/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/filter/BookCateGoryPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/filter/CharchaterFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/filter/PersonalCenterFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/filter/TheShoppingCartFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/servlet/EmailVerificationCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/servlet/Exits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/servlet/Index.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/servlet/Paging.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/servlet/PersonalCenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/servlet/Registered.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/servlet/TheLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/servlet/TheShoppingCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/servlet/TheShoppingDelete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bookcategorypage/academic.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bookcategorypage/foreignlanguagelearning.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bookcategorypage/livetolearn.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bookcategorypage/motivational.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bookcategorypage/psychology.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bookcategorypage/socialscience.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bookcategorypage/technology.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bookinformation/bookinformation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bookinformation/bookinformation.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/bookinformation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/personalcenter.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/productdetails.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/theshoppingcart.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/footer/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/footer/footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/header/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/header/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/image/bookstore_logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/image/camera.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/image/collection.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/image/economic_management/economic_management01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/image/help.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/image/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/image/me.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/image/more.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/image/psychology/psychology01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/image/psychology/psychology02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/image/psychology/psychology03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/image/psychology/psychology04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/image/psychology/psychology05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/image/psychology/psychology06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/image/psychology/psychology07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/image/psychology/psychology08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/image/psychology/psychology09.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/image/psychology/psychology10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/image/psychology/psychology11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/image/psychology/psychology12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/image/psychology/psychology13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/image/psychology/psychology14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/image/psychology/psychology15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/image/psychology/psychology16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/image/psychology/psychology17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/image/psychology/psychology18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/image/psychology/psychology19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/image/psychology/psychology20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/image/psychology/psychology21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/image/psychology/psychology22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/image/psychology/psychology23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/image/psychology/psychology24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/image/psychology/psychology25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/image/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/image/searchs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/image/shopping_cart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/image/shufflingfigure01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/image/shufflingfigure02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/image/shufflingfigure03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/image/shufflingfigure04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/image/shufflingfigure05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/image/shufflingfigure06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/bookinformation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/header2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/jquery-3.4.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/myDate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/pageturn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/personalcenter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/productdetails.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/theshoppingcart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/less/animated.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/less/bordered-pulled.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/less/core.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/less/fixed-width.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/less/font-awesome.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/less/icons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/less/larger.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/less/list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/less/path.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/less/rotated-flipped.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/less/screen-reader.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/less/stacked.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/personalcenter/personalcenter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/personalcenter/personalcenter.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/productdetails/productdetails.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/productdetails/productdetails.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/scss/_animated.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/scss/_bordered-pulled.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/scss/_fixed-width.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/scss/_larger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/scss/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/scss/_path.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/scss/_rotated-flipped.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/scss/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/scss/_stacked.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/scss/font-awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/theshoppingcart/theshoppingcart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/theshoppingcart/theshoppingcart.jsp" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="OnlineBookstore" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>header_div2_ul</find>
+      <find>search_as</find>
+      <find>the_login</find>
+      <find>index_section_give</find>
+      <find>give_a_like</find>
+      <find>fa-heart</find>
+      <find>productdetails_div02_h501</find>
+      <find>productdetails_div02_h502</find>
+      <find>input</find>
+      <find>header_ass</find>
+      <find>index_section_img</find>
+      <find>img-responsive</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/web/js/pageturn.js" />
+        <option value="$PROJECT_DIR$/web/bookinformation/bookinformation.html" />
+        <option value="$PROJECT_DIR$/src/web/filter/IndexFilter.java" />
+        <option value="$PROJECT_DIR$/web/js/theshoppingcart.js" />
+        <option value="$PROJECT_DIR$/src/utilityclass/HomePage.java" />
+        <option value="$PROJECT_DIR$/web/js/bookinformation2.js" />
+        <option value="$PROJECT_DIR$/src/web/filter/TheShoppingCartFilter.java" />
+        <option value="$PROJECT_DIR$/src/web/filter/BookCateGoryPage.java" />
+        <option value="$PROJECT_DIR$/src/bean/CenterUser.java" />
+        <option value="$PROJECT_DIR$/src/web/filter/PersonalCenterFilter.java" />
+        <option value="$PROJECT_DIR$/src/bean/CenterUsers.java" />
+        <option value="$PROJECT_DIR$/src/dao/DBUtilsDao.java" />
+        <option value="$PROJECT_DIR$/src/eg/Eg01.java" />
+        <option value="$PROJECT_DIR$/web/personalcenter/personalcenter.html" />
+        <option value="$PROJECT_DIR$/web/js/personalcenter.js" />
+        <option value="$PROJECT_DIR$/web/theshoppingcart/theshoppingcart.html" />
+        <option value="$PROJECT_DIR$/web/header/header.jsp" />
+        <option value="$PROJECT_DIR$/web/theshoppingcart/theshoppingcart.jsp" />
+        <option value="$PROJECT_DIR$/web/productdetails/productdetails.jsp" />
+        <option value="$PROJECT_DIR$/web/personalcenter/personalcenter.jsp" />
+        <option value="$PROJECT_DIR$/web/bookcategorypage/academic.jsp" />
+        <option value="$PROJECT_DIR$/web/bookcategorypage/foreignlanguagelearning.jsp" />
+        <option value="$PROJECT_DIR$/web/bookcategorypage/livetolearn.jsp" />
+        <option value="$PROJECT_DIR$/web/bookcategorypage/motivational.jsp" />
+        <option value="$PROJECT_DIR$/web/bookcategorypage/psychology.jsp" />
+        <option value="$PROJECT_DIR$/web/bookcategorypage/socialscience.jsp" />
+        <option value="$PROJECT_DIR$/web/bookcategorypage/technology.jsp" />
+        <option value="$PROJECT_DIR$/web/header/header.html" />
+        <option value="$PROJECT_DIR$/web/index.html" />
+        <option value="$PROJECT_DIR$/web/css/index.css" />
+        <option value="$PROJECT_DIR$/web/css/bookinformation.css" />
+        <option value="$PROJECT_DIR$/web/css/header.css" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/web/bookinformation/bookinformation.jsp" />
+        <option value="$PROJECT_DIR$/web/js/index.js" />
+        <option value="$PROJECT_DIR$/web/js/bookinformation.js" />
+        <option value="$PROJECT_DIR$/web/personalcenter/weg.html" />
+        <option value="$PROJECT_DIR$/web/css/personalcenter.css" />
+        <option value="$PROJECT_DIR$/web/js/header.js" />
+        <option value="$PROJECT_DIR$/web/js/header2.js" />
+        <option value="$PROJECT_DIR$/src/web/servlet/EmailVerificationCode.java" />
+        <option value="$PROJECT_DIR$/src/web/servlet/Exits.java" />
+        <option value="$PROJECT_DIR$/src/web/servlet/Index.java" />
+        <option value="$PROJECT_DIR$/src/web/servlet/Paging.java" />
+        <option value="$PROJECT_DIR$/src/web/servlet/PersonalCenter.java" />
+        <option value="$PROJECT_DIR$/src/web/servlet/Registered.java" />
+        <option value="$PROJECT_DIR$/src/web/servlet/TheLogin.java" />
+        <option value="$PROJECT_DIR$/src/web/servlet/TheShoppingCart.java" />
+        <option value="$PROJECT_DIR$/src/web/servlet/TheShoppingDelete.java" />
+        <option value="$PROJECT_DIR$/web/js/bootstrap.js" />
+        <option value="$PROJECT_DIR$/web/js/jquery-3.4.1.js" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-12" />
+    <option name="width" value="1941" />
+    <option name="height" value="1032" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="OnlineBookstore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineBookstore" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineBookstore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineBookstore" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineBookstore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineBookstore" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineBookstore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineBookstore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineBookstore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineBookstore" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.18858308" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="dao" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\MICHAEL\IntelliJIDEAWorkspace\OnlineBookstore\web\image\psychology" />
+      <recent name="C:\Users\MICHAEL\IntelliJIDEAWorkspace\OnlineBookstore\web\productdetails" />
+      <recent name="C:\Users\MICHAEL\IntelliJIDEAWorkspace\OnlineBookstore\web\image\economic_management" />
+      <recent name="C:\Users\MICHAEL\IntelliJIDEAWorkspace\OnlineBookstore\libs" />
+      <recent name="C:\Users\MICHAEL\IntelliJIDEAWorkspace\OnlineBookstore\src\bean" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="utilityclass" />
+      <recent name="dao" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\MICHAEL\IntelliJIDEAWorkspace\OnlineBookstore\web" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.19" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.19" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="OnlineBookstore:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/OnlineBookstore" />
+          </settings>
+        </artifact>
+        <artifact name="OnlineBookstore:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/OnlineBookstore_war" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_OnlineBookstore_3" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="56483" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="JRebel Debug">
+        <option name="DEBUG_PORT" value="56484" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Executor">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="OnlineBookstore:war exploded" />
+          <artifact name="OnlineBookstore:war" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3f50d816-b29d-4804-9f58-47de42c3af38" name="Default Changelist" comment="" />
+      <created>1559719863033</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1559719863033</updated>
+      <workItem from="1559719874466" duration="28687000" />
+      <workItem from="1559985925634" duration="15399000" />
+      <workItem from="1560060557943" duration="29963000" />
+      <workItem from="1560172098267" duration="13659000" />
+      <workItem from="1560309101527" duration="667000" />
+      <workItem from="1560325616647" duration="61144000" />
+      <workItem from="1560484440603" duration="22805000" />
+      <workItem from="1560650494310" duration="16627000" />
+      <workItem from="1560681304103" duration="25520000" />
+      <workItem from="1560818950828" duration="28793000" />
+      <workItem from="1561004118883" duration="86405000" />
+      <workItem from="1561372629138" duration="247000" />
+      <workItem from="1561384629254" duration="4620000" />
+      <workItem from="1561430135062" duration="4556000" />
+      <workItem from="1561469895739" duration="5127000" />
+      <workItem from="1561526639305" duration="13655000" />
+      <workItem from="1561639289192" duration="18184000" />
+      <workItem from="1561791840668" duration="6517000" />
+      <workItem from="1561960708871" duration="176000" />
+      <workItem from="1568683528117" duration="1280000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="384031000" />
+  </component>
+  <component name="TodoView" selected-index="4">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
+    <layout>
+      <window_info id="Designer" order="0" />
+      <window_info id="Favorites" order="1" sideWeight="0.50825685" side_tool="true" weight="0.25447154" />
+      <window_info id="JRebel" order="2" side_tool="true" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Web" order="6" sideWeight="0.52380955" side_tool="true" weight="0.21463415" />
+      <window_info active="true" content_ui="combo" id="Project" order="7" sideWeight="0.47619048" visible="true" weight="0.2465419" />
+      <window_info id="Structure" order="8" sideWeight="0.518315" weight="0.3213995" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32783884" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.9162393" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Spring" order="6" weight="0.32967034" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.45641026" />
+      <window_info anchor="bottom" id="Application Servers" order="8" weight="0.32820514" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32991454" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="JRebel Executor" order="15" />
+      <window_info anchor="bottom" id="JRebel Console" order="16" side_tool="true" weight="0.32820514" />
+      <window_info anchor="bottom" id="Messages" order="17" weight="0.5760684" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.3295362" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="0" />
+      <window_info id="Favorites" order="1" sideWeight="0.50825685" side_tool="true" weight="0.25447154" />
+      <window_info id="JRebel" order="2" side_tool="true" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Web" order="6" sideWeight="0.52380955" side_tool="true" weight="0.21463415" />
+      <window_info content_ui="combo" id="Project" order="7" sideWeight="0.47619048" visible="true" weight="0.12367779" />
+      <window_info id="Structure" order="8" sideWeight="0.518315" weight="0.3213995" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32783884" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.9162393" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Spring" order="6" weight="0.32967034" />
+      <window_info active="true" anchor="bottom" id="TODO" order="7" visible="true" weight="0.45641026" />
+      <window_info anchor="bottom" id="Application Servers" order="8" weight="0.32820514" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32991454" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="JRebel Executor" order="15" />
+      <window_info anchor="bottom" id="JRebel Console" order="16" side_tool="true" weight="0.32820514" />
+      <window_info anchor="bottom" id="Messages" order="17" weight="0.5760684" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.3295362" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="OnlineBookstore javaweb版" />
+    <option name="LAST_COMMIT_MESSAGE" value="OnlineBookstore javaweb版" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/web/js/personalcenter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/header/eg01.jsp" />
+    <entry file="file://$PROJECT_DIR$/web/header/eg01.html" />
+    <entry file="file://$PROJECT_DIR$/web/theshoppingcart/theshoppingcart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
+          <folding>
+            <element signature="n#meta#1;n#head#0;n#html#0;n#!!top" />
+            <element signature="e#838#916#0" />
+            <element signature="e#977#1081#0" />
+            <element signature="e#1145#1249#0" />
+            <element signature="e#1285#1319#0" />
+            <element signature="e#1366#1407#0" />
+            <element signature="e#1464#1546#0" />
+            <element signature="e#1600#1667#0" />
+            <element signature="e#1690#1917#0" />
+            <element signature="e#1942#1992#0" />
+            <element signature="e#2017#2067#0" />
+            <element signature="e#2098#2148#0" />
+            <element signature="e#2179#2229#0" />
+            <element signature="e#2240#2518#0" />
+            <element signature="n#script#4;n#head#0;n#html#0;n#!!top" />
+            <element signature="e#2584#3878#0" />
+            <element signature="e#2731#3868#0" />
+            <element signature="e#2859#3854#0" />
+            <element signature="e#2881#3742#0" />
+            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#tr#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#tr#1;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#td#0;n#tr#1;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#input#0;n#td#0;n#tr#1;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#td#1;n#tr#1;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#td#2;n#tr#1;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#h5#0;n#td#2;n#tr#1;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#span#0;n#h5#0;n#td#2;n#tr#1;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#td#3;n#tr#1;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#h4#0;n#td#3;n#tr#1;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#td#4;n#tr#1;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#td#5;n#tr#1;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#h4#0;n#td#5;n#tr#1;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#td#6;n#tr#1;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#0;n#td#6;n#tr#1;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#tr#2;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#td#0;n#tr#2;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#input#0;n#td#0;n#tr#2;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#td#1;n#tr#2;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#td#2;n#tr#2;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#h5#0;n#td#2;n#tr#2;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#span#0;n#h5#0;n#td#2;n#tr#2;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#td#3;n#tr#2;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#h4#0;n#td#3;n#tr#2;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#td#4;n#tr#2;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#td#5;n#tr#2;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#h4#0;n#td#5;n#tr#2;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#td#6;n#tr#2;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#0;n#td#6;n#tr#2;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#tr#3;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#td#0;n#tr#3;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#input#0;n#td#0;n#tr#3;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#td#1;n#tr#3;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#td#2;n#tr#3;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#h5#0;n#td#2;n#tr#3;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#span#0;n#h5#0;n#td#2;n#tr#3;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#td#3;n#tr#3;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#h4#0;n#td#3;n#tr#3;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#td#4;n#tr#3;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#td#5;n#tr#3;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#h4#0;n#td#5;n#tr#3;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#td#6;n#tr#3;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#0;n#td#6;n#tr#3;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#tr#4;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#td#0;n#tr#4;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#input#0;n#td#0;n#tr#4;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#td#1;n#tr#4;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#td#2;n#tr#4;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#h5#0;n#td#2;n#tr#4;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#span#0;n#h5#0;n#td#2;n#tr#4;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#td#3;n#tr#4;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#h4#0;n#td#3;n#tr#4;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#td#4;n#tr#4;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#td#5;n#tr#4;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#h4#0;n#td#5;n#tr#4;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#td#6;n#tr#4;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#0;n#td#6;n#tr#4;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#tr#5;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#td#0;n#tr#5;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#input#0;n#td#0;n#tr#5;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#td#1;n#tr#5;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#td#2;n#tr#5;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#h5#0;n#td#2;n#tr#5;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#span#0;n#h5#0;n#td#2;n#tr#5;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#td#3;n#tr#5;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#h4#0;n#td#3;n#tr#5;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#td#4;n#tr#5;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#td#5;n#tr#5;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#h4#0;n#td#5;n#tr#5;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#td#6;n#tr#5;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#0;n#td#6;n#tr#5;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#table#1;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#input#0;n#td#0;n#tr#0;n#table#1;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#table#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#input#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#td#1;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#strong#0;n#h5#0;n#td#1;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#strong#1;n#h5#0;n#td#1;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#strong#0;n#h5#1;n#td#1;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/theshoppingcart/eg.html" />
+    <entry file="file://$PROJECT_DIR$/src/web/filter/BookCateGoryPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utilityclass/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="46" column="17" lean-forward="true" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/jsp/lib/jsp-impl.jar!/standardSchemas/jspdirectives2_1.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="158" column="8" selection-start-line="158" selection-start-column="8" selection-end-line="158" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/theshoppingcart/theshoppingcart.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="24" column="88" selection-start-line="24" selection-start-column="88" selection-end-line="24" selection-end-column="88" />
+          <folding>
+            <element signature="n#c:forEach#0;n#jsp:root#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/productdetails/productdetails.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="22" column="98" lean-forward="true" selection-start-line="22" selection-start-column="98" selection-end-line="22" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/bookcategorypage/academic.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="25" column="90" selection-start-line="25" selection-start-column="90" selection-end-line="25" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/bookcategorypage/foreignlanguagelearning.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="25" column="90" selection-start-line="25" selection-start-column="90" selection-end-line="25" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/bookcategorypage/livetolearn.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="25" column="90" selection-start-line="25" selection-start-column="90" selection-end-line="25" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/bookcategorypage/motivational.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="25" column="90" selection-start-line="25" selection-start-column="90" selection-end-line="25" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/bookcategorypage/psychology.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="25" column="90" selection-start-line="25" selection-start-column="90" selection-end-line="25" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/bookcategorypage/socialscience.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="25" column="90" selection-start-line="25" selection-start-column="90" selection-end-line="25" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/bookcategorypage/technology.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="26" column="22" lean-forward="true" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/bookinformation/bookinformation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/bookinformation.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="77" column="10" lean-forward="true" selection-start-line="77" selection-start-column="10" selection-end-line="77" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/header.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2375">
+          <caret line="95" column="1" lean-forward="true" selection-start-line="95" selection-start-column="1" selection-end-line="95" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/druid-1.0.9.jar!/support/http/resources/js/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="37" lean-forward="true" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/bookinformation/bookinformation.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="41" column="68" selection-start-line="41" selection-start-column="68" selection-end-line="41" selection-end-column="68" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/bookinformation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="31" selection-start-column="31" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/personalcenter/weg.html" />
+    <entry file="file://$PROJECT_DIR$/web/personalcenter/personalcenter.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="52" column="34" lean-forward="true" selection-start-line="52" selection-start-column="34" selection-end-line="52" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/personalcenter.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="32" column="17" lean-forward="true" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/personalcenter/personalcenter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#strong#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#h4#2;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#h4#3;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#h4#4;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#textarea#0;n#h4#8;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/footer/footer.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/footer/footer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="31" selection-start-column="31" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/header2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="159" column="24" lean-forward="true" selection-start-line="159" selection-start-column="24" selection-end-line="159" selection-end-column="24" />
+          <folding>
+            <element signature="n#!!block;n#registered#0" />
+            <element signature="n#!!block;n#get_verification_code#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="150" column="25" lean-forward="true" selection-start-line="150" selection-start-column="25" selection-end-line="150" selection-end-column="25" />
+          <folding>
+            <element signature="n#!!block;n#registered#0" />
+            <element signature="n#!!block;n#get_verification_code#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/header/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="124" column="8" selection-start-line="124" selection-start-column="8" selection-end-line="124" selection-end-column="8" />
+          <folding>
+            <element signature="n#script#0;n#head#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#header#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/header/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="40" column="39" lean-forward="true" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
+          <folding>
+            <element signature="n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#input#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#2;n#header#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-914">
+          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+          <folding>
+            <element signature="n#script#4;n#head#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#2113#4648#0" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#h4#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#h4#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#h4#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#h4#0;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#h4#0;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#3;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#h4#0;n#div#3;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#h4#0;n#div#3;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#4;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#h4#0;n#div#4;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#h4#0;n#div#4;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#5;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#img#0;n#div#5;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#h4#0;n#div#5;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#h4#0;n#div#5;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#6;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#h4#0;n#div#6;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#h4#0;n#div#6;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#7;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#h4#0;n#div#7;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#h4#0;n#div#7;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#button#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#ul#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/servlet/EmailVerificationCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="19" column="114" selection-start-line="19" selection-start-column="114" selection-end-line="19" selection-end-column="114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/servlet/Exits.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="32" column="115" selection-start-line="32" selection-start-column="115" selection-end-line="32" selection-end-column="115" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/servlet/Index.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="55" column="115" selection-start-line="55" selection-start-column="115" selection-end-line="55" selection-end-column="115" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/servlet/Paging.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="37" column="115" selection-start-line="37" selection-start-column="115" selection-end-line="37" selection-end-column="115" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/servlet/PersonalCenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="68" column="115" selection-start-line="68" selection-start-column="115" selection-end-line="68" selection-end-column="115" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/servlet/Registered.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="83" column="115" selection-start-line="83" selection-start-column="115" selection-end-line="83" selection-end-column="115" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/servlet/TheLogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="61" column="115" selection-start-line="61" selection-start-column="115" selection-end-line="61" selection-end-column="115" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/servlet/TheShoppingCart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="52" column="115" selection-start-line="52" selection-start-column="115" selection-end-line="52" selection-end-column="115" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/jquery-3.4.1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="4254" column="10" selection-start-line="4254" selection-start-column="10" selection-end-line="4254" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/servlet/TheShoppingDelete.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="37" column="115" selection-start-line="37" selection-start-column="115" selection-end-line="37" selection-end-column="115" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="1575" column="26" selection-start-line="1575" selection-start-column="26" selection-end-line="1575" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-19414">
+          <caret line="619" column="8" selection-start-line="619" selection-start-column="8" selection-end-line="619" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/theshoppingcart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dbcpconfig.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>OnlineBookstore:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.18858308" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

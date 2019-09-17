@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script type="text/javascript" src="js/jquery-3.4.1.js"></script>
+    <!--<script type="text/javascript" src="js/bootstrap.js"></script>-->
+    <script type="text/javascript" src="js/header.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/pageturn.js"></script>
+    <title>书城首页</title>
+    <style type="text/css">
+        #carousel-example-generic img {
+            width: 100%;
+        }
+    </style>
+
+    <script>
+        window.onload = function (ev) {
+            var skip = document.getElementsByClassName("skip");
+            var skipa = document.getElementsByClassName("skip_a");
+            for (var i = 0; i < skip.length; i++) {
+                skip[i].index = i;
+                skip[i].onclick = function () {
+                    if (this.index === 0) {
+                        //上一页
+
+                    } else {
+                        //下一页
+                        var countColor = 0;
+                        for (var j = 0; j < skipa.length; j++) {
+                            var color = skipa[j].style.backgroundColor;
+                            if (color === "rgb(202, 233, 255)") {
+                                skipa[j].style.backgroundColor = "#ffffff";
+                                countColor = j + 1;
+                            }
+                        }
+
+                        skipa[countColor].style.backgroundColor = "#cae9ff";
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+
+<div style="width: 100%;height: 140px;background-color: #ac2925"><h1 id="h1">as</h1></div>
+
+<!--首页轮播图-->
+<!--<div style="width: 100%;">
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+        </ol>
+
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="image/shufflingfigure01.jpg" alt="">
+                <div class="carousel-caption">
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/shufflingfigure02.jpg" alt="">
+                <div class="carousel-caption">
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/shufflingfigure03.jpg" alt="">
+                <div class="carousel-caption">
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/shufflingfigure04.jpg" alt="">
+                <div class="carousel-caption">
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/shufflingfigure05.jpg" alt="">
+                <div class="carousel-caption">
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/shufflingfigure06.jpg" alt="">
+                <div class="carousel-caption">
+                </div>
+            </div>
+
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <script>
+        $(function () {
+            $('#carousel-example-generic').carousel({interval: 2000});
+        });
+    </script>
+</div>-->
+
+<!--首页数据展示-->
+<div id="displayContent">
+    <div class="container">
+        <div class="row" style="padding-bottom: 10%;padding-top: 5%;margin-left: 0;margin-right: 0;">
+
+            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 index_section" align="center">
+                <img src="image/psychology/psychology01.jpg" class="index_section_img"
+                     alt="">
+                <br>
+                <a href="" class="index_section_a">社会心理学（原书第14版)</a>
+                <h4 style="text-align: center;" class="index_section_money">
+                    <strong class="index_section_moneys">￥101.23</strong>
+                    &nbsp;&nbsp;
+                    <span style="font-size: 1rem;">特价优选</span>
+                </h4>
+                <a href="" class="index_the_author">作者：[美]尼拉 R.布兰斯科姆( Nyla R. Branscombe) 罗伯特 A.巴隆(Robert A. Baron)</a>
+                <br>
+                <a href="javascript:void(0)" class="add_to_cart">
+                    <i class="fa fa-shopping-cart fa" data-toggle="modal" data-target="#myModal">加入购物车</i>
+                </a>
+                <br><br>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 index_section" align="center">
+                <img src="image/psychology/psychology02.jpg" class="index_section_img"
+                     alt="">
+                <br>
+                <a href="" class="index_section_a">社会心理学（原书第14版)</a>
+                <h4 style="text-align: center;" class="index_section_money">
+                    <strong class="index_section_moneys">￥101.23</strong>
+                    &nbsp;&nbsp;
+                    <span style="font-size: 1rem;">特价优选</span>
+                </h4>
+                <a href="" class="index_the_author">作者：[美]尼拉 R.布兰斯科姆( Nyla R. Branscombe) 罗伯特 A.巴隆(Robert A. Baron)</a>
+                <br>
+                <a href="javascript:void(0)" class="add_to_cart">
+                    <i class="fa fa-shopping-cart fa" data-toggle="modal" data-target="#myModal">加入购物车</i>
+                </a>
+                <br><br>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 index_section" align="center">
+                <img src="image/psychology/psychology03.jpg" class="index_section_img"
+                     alt="">
+                <br>
+                <a href="" class="index_section_a">社会心理学（原书第14版)</a>
+                <h4 style="text-align: center;" class="index_section_money">
+                    <strong class="index_section_moneys">￥101.23</strong>
+                    &nbsp;&nbsp;
+                    <span style="font-size: 1rem;">特价优选</span>
+                </h4>
+                <a href="" class="index_the_author">作者：[美]尼拉 R.布兰斯科姆( Nyla R. Branscombe) 罗伯特 A.巴隆(Robert A. Baron)</a>
+                <br>
+                <a href="javascript:void(0)" class="add_to_cart">
+                    <i class="fa fa-shopping-cart fa" data-toggle="modal" data-target="#myModal">加入购物车</i>
+                </a>
+                <br><br>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 index_section" align="center">
+                <img src="image/psychology/psychology04.jpg" class="index_section_img"
+                     alt="">
+                <br>
+                <a href="" class="index_section_a">社会心理学（原书第14版)</a>
+                <h4 style="text-align: center;" class="index_section_money">
+                    <strong class="index_section_moneys">￥101.23</strong>
+                    &nbsp;&nbsp;
+                    <span style="font-size: 1rem;">特价优选</span>
+                </h4>
+                <a href="" class="index_the_author">作者：[美]尼拉 R.布兰斯科姆( Nyla R. Branscombe) 罗伯特 A.巴隆(Robert A. Baron)</a>
+                <br>
+                <a href="javascript:void(0)" class="add_to_cart">
+                    <i class="fa fa-shopping-cart fa" data-toggle="modal" data-target="#myModal">加入购物车</i>
+                </a>
+                <br><br>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 index_section" align="center">
+                <img src="image/psychology/psychology05.jpg" class="index_section_img"
+                     alt="">
+                <br>
+                <a href="" class="index_section_a">社会心理学（原书第14版)</a>
+                <h4 style="text-align: center;" class="index_section_money">
+                    <strong class="index_section_moneys">￥101.23</strong>
+                    &nbsp;&nbsp;
+                    <span style="font-size: 1rem;">特价优选</span>
+                </h4>
+                <a href="" class="index_the_author">作者：[美]尼拉 R.布兰斯科姆( Nyla R. Branscombe) 罗伯特 A.巴隆(Robert A. Baron)</a>
+                <br>
+                <a href="javascript:void(0)" class="add_to_cart">
+                    <i class="fa fa-shopping-cart fa" data-toggle="modal" data-target="#myModal">加入购物车</i>
+                </a>
+                <br><br>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 index_section" align="center">
+                <img src="image/psychology/psychology06.jpg" class="index_section_img"
+                     alt="">
+                <br>
+                <a href="" class="index_section_a">社会心理学（原书第14版)</a>
+                <h4 style="text-align: center;" class="index_section_money">
+                    <strong class="index_section_moneys">￥101.23</strong>
+                    &nbsp;&nbsp;
+                    <span style="font-size: 1rem;">特价优选</span>
+                </h4>
+                <a href="" class="index_the_author">作者：[美]尼拉 R.布兰斯科姆( Nyla R. Branscombe) 罗伯特 A.巴隆(Robert A. Baron)</a>
+                <br>
+                <a href="javascript:void(0)" class="add_to_cart">
+                    <i class="fa fa-shopping-cart fa" data-toggle="modal" data-target="#myModal">加入购物车</i>
+                </a>
+                <br><br>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 index_section" align="center">
+                <img src="image/psychology/psychology07.jpg" class="index_section_img"
+                     alt="">
+                <br>
+                <a href="" class="index_section_a">社会心理学（原书第14版)</a>
+                <h4 style="text-align: center;" class="index_section_money">
+                    <strong class="index_section_moneys">￥101.23</strong>
+                    &nbsp;&nbsp;
+                    <span style="font-size: 1rem;">特价优选</span>
+                </h4>
+                <a href="" class="index_the_author">作者：[美]尼拉 R.布兰斯科姆( Nyla R. Branscombe) 罗伯特 A.巴隆(Robert A. Baron)</a>
+                <br>
+                <a href="javascript:void(0)" class="add_to_cart">
+                    <i class="fa fa-shopping-cart fa" data-toggle="modal" data-target="#myModal">加入购物车</i>
+                </a>
+                <br><br>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 index_section" align="center">
+                <img src="image/psychology/psychology08.jpg" class="index_section_img"
+                     alt="">
+                <br>
+                <a href="" class="index_section_a">社会心理学（原书第14版)</a>
+                <h4 style="text-align: center;" class="index_section_money">
+                    <strong class="index_section_moneys">￥101.23</strong>
+                    &nbsp;&nbsp;
+                    <span style="font-size: 1rem;">特价优选</span>
+                </h4>
+                <a href="" class="index_the_author">作者：[美]尼拉 R.布兰斯科姆( Nyla R. Branscombe) 罗伯特 A.巴隆(Robert A. Baron)</a>
+                <br>
+                <a href="javascript:void(0)" class="add_to_cart">
+                    <i class="fa fa-shopping-cart fa" data-toggle="modal" data-target="#myModal">加入购物车</i>
+                </a>
+                <br><br>
+            </div>
+
+
+        </div>
+
+        <div id="shopping_cart_tip">
+            <div style="margin-top: 12%;" class="modal fade" id="myModal" tabindex="-1" role="dialog"
+                 aria-labelledby="myModalLabel" data-backdrop="static">
+                <div class="modal-dialog modal-sm" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header" style="background-color: #ac2925;border-radius: 4px">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                    aria-hidden="true" style="color: white;">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel" style="color: white">提示</h4>
+                        </div>
+                        <div class="modal-body modal_information_div" align="center">
+                            <h4>商品已成功添加到购物车！</h4>
+                            <br>
+                            <a href="" class="modal_information_div_a">去购物车并结算</a>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <a href="javascript:void(0)" class="modal_information_div_a" data-dismiss="modal"
+                               style="background-color: #999999">继续购物</a>
+                            <br><br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="paging" style="width: 100%;padding-bottom: 5%;" align="center">
+    <ul class="pagination" id="paging_ul" style="margin: 0;">
+        <li><a id="prev-page">«</a></li>
+        <li class="paging_ul_li"><a href="javascript:void(0)" id="paging_ul_li_a1" class="paging_ul_li_a"
+                                    title="夢ちゃん">1</a></li>
+        <li class="paging_ul_li"><a href="javascript:void(0)" id="paging_ul_li_a2" class="paging_ul_li_a"
+                                    title="夢ちゃん">2</a></li>
+        <li class="paging_ul_li"><a href="javascript:void(0)" id="paging_ul_li_a3" class="paging_ul_li_a"
+                                    title="夢ちゃん">3</a></li>
+        <li class="paging_ul_li"><a href="javascript:void(0)" id="paging_ul_li_a4" class="paging_ul_li_a"
+                                    title="夢ちゃん">4</a></li>
+        <li class="paging_ul_li"><a href="javascript:void(0)" id="paging_ul_li_a5" class="paging_ul_li_a"
+                                    title="夢ちゃん">5</a></li>
+        <li><a id="next-page">»</a></li>
+    </ul>
+    <h5>
+        一共
+        <strong class="paging_strong">4</strong>
+        页
+        <strong class="paging_strong">25</strong>
+        条数据
+    </h5>
+</div>
+
+</body>
+</html>

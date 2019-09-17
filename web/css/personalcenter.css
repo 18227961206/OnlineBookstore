@@ -1,0 +1,86 @@
+/*头部样式*/
+#center a {
+    color: white;
+    float: right;
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 50px;
+    text-decoration: none;
+}
+
+#center a:hover, #centers li a:hover {
+    background-color: #710e0f;
+}
+
+/*用户信息样式*/
+section .section_div h4 {
+    padding-top: 1%;
+}
+
+section .section_div h4 label select {
+    padding-top: 4%;
+    padding-bottom: 6%;
+    padding-left: 5%;
+    width: 160px;
+    border: 2px solid #c6c6c6;
+    background-color: #F1F1F1;
+    border-radius: 5px;
+}
+
+section .section_div h4 input, section .section_div h4 textarea {
+    width: 40%;
+    min-width: 160px;
+    padding: 8px;
+    letter-spacing: 2px;
+    border: 2px solid #c6c6c6;
+    border-radius: 5px;
+}
+
+.textarea {
+    height: 80px;
+}
+
+#submit {
+    border: 0;
+    padding: 10px;
+    color: white;
+    font-size: 1.4rem;
+    border-radius: 5px;
+    background-color: #991010;
+}
+
+#submit:hover {
+    background-color: #710e0f;
+}
+
+section .section_div h4 input:focus,
+section .section_div h4 textarea:focus {
+    outline: none;
+    border: 2px solid #991010;
+    box-shadow: 0 0 10px 0 #991010;
+}
+
+
+@media (max-width: 700px) {
+    .logos {
+        display: none;
+    }
+}
+
+@media (max-width: 430px) {
+    #center a {
+        font-size: 1.2rem;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    section .section_div h4 {
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 275px) {
+    #home_page {
+        display: none;
+    }
+}

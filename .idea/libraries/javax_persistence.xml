@@ -1,0 +1,39 @@
+<component name="libraryTable">
+  <library name="javax.persistence">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/javax.persistence.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/jstl-impl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/javax.ejb.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/javax.annotation.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/spring-core-5.0.0.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/javax.resource.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/jackson-core-2.2.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/spring-jdbc-5.0.0.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/javax.transaction.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/mysql-connector-java-5.1.37-bin.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/javax.servlet.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/jackson-annotations-2.2.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/c3p0-0.9.5.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/itcast-tools-1.4.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/jackson-databind-2.2.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/mchange-commons-java-0.2.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/druid-1.0.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/commons-logging-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/spring-tx-5.0.0.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/javax.servlet.jsp.jstl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/javax.jms.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/commons-beanutils-1.8.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/javax.servlet.jsp.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/commons-dbutils-1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/commons-io-1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/spring-beans-5.0.0.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/libs/itcast-tools-1.4.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/commons-beanutils-1.8.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/commons-dbutils-1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/commons-io-1.4.jar!/" />
+    </SOURCES>
+  </library>
+</component>
