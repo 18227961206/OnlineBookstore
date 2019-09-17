@@ -6,7 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f50d816-b29d-4804-9f58-47de42c3af38" name="Default Changelist" comment="">
+    <list default="true" id="3f50d816-b29d-4804-9f58-47de42c3af38" name="Default Changelist" comment="OnlineBookstore javaweb版">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -64,6 +64,7 @@
       <find>header_ass</find>
       <find>index_section_img</find>
       <find>img-responsive</find>
+      <find>git</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -161,11 +162,6 @@
               <item name="OnlineBookstore" type="b2602c69:ProjectViewProjectNode" />
               <item name="OnlineBookstore" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="OnlineBookstore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OnlineBookstore" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -177,7 +173,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Git/Git/bin/git.exe" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Git/Git/cmd/git.exe" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -191,7 +187,7 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.18858308" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -368,7 +364,7 @@
       <workItem from="1561639289192" duration="18184000" />
       <workItem from="1561791840668" duration="6517000" />
       <workItem from="1561960708871" duration="176000" />
-      <workItem from="1568683528117" duration="2616000" />
+      <workItem from="1568683528117" duration="4859000" />
     </task>
     <task id="LOCAL-00001" summary="OnlineBookstore javaweb版">
       <created>1568685064181</created>
@@ -377,11 +373,18 @@
       <option name="project" value="LOCAL" />
       <updated>1568685064182</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="OnlineBookstore javaweb版">
+      <created>1568686211767</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1568686211768</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="385367000" />
+    <option name="totallyTimeSpent" value="387610000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -418,7 +421,7 @@
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32991454" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.32991454" />
       <window_info anchor="bottom" id="JRebel Executor" order="15" />
       <window_info anchor="bottom" id="JRebel Console" order="16" side_tool="true" weight="0.32820514" />
       <window_info anchor="bottom" id="Messages" order="17" weight="0.5760684" />
@@ -976,13 +979,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-19414">
-          <caret line="619" column="8" selection-start-line="619" selection-start-column="8" selection-end-line="619" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/js/theshoppingcart.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -997,6 +993,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="68" column="22" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="22" />
         </state>
       </provider>
     </entry>
