@@ -6,443 +6,8 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f50d816-b29d-4804-9f58-47de42c3af38" name="Default Changelist" comment="OnlineBookstore javaweb版">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/OnlineBookstore_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/OnlineBookstore_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/activation.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/javax_persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineBookstore.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/activation.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/c3p0-0.9.1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/commons-beanutils-1.9.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/commons-dbcp2-2.6.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/commons-dbutils-1.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/commons-email-1.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/commons-io-2.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/commons-logging-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/druid-1.0.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/httpclient-4.5.8.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/httpcore-4.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/itcast-tools-1.4.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/jackson-annotations-2.2.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/jackson-core-2.2.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/jackson-databind-2.2.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/javax.annotation.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/javax.ejb.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/javax.jms.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/javax.persistence.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/javax.resource.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/javax.servlet.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/javax.servlet.jsp.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/javax.servlet.jsp.jstl.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/javax.transaction.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/jstl-impl.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/mail.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/mchange-commons-java-0.2.12.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/mysql-connector-java-5.1.39-bin.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/spring-beans-5.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/spring-core-5.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/spring-jdbc-5.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/spring-tx-5.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/standard-1.1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war/OnlineBookstore_war.war" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/classes/META-INF/OnlineBookstore.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/classes/bean/BookInformation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/classes/bean/BookUser.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/classes/bean/CenterUser.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/classes/bean/CenterUsers.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/classes/bean/ShoppingCart.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/classes/bean/TheShoppingCartBean.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/classes/bean/TheShoppingCartFilterBean.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/classes/bean/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/classes/c3p0-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/classes/dao/BaseDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/classes/dao/DBUtilsDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/classes/dbcpconfig.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/classes/eg/Eg01.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/classes/util/C3P0JDBCUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/classes/util/C3p0Utils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/classes/util/Dates.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/classes/util/JDBCUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/classes/utilityclass/HomePage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/classes/web/filter/BookCateGoryPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/classes/web/filter/CharchaterFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/classes/web/filter/PersonalCenterFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/classes/web/filter/TheShoppingCartFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/classes/web/servlet/EmailVerificationCode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/classes/web/servlet/Exits.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/classes/web/servlet/Index.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/classes/web/servlet/Paging.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/classes/web/servlet/PersonalCenter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/classes/web/servlet/Registered.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/classes/web/servlet/TheLogin.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/classes/web/servlet/TheShoppingCart.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/classes/web/servlet/TheShoppingDelete.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/lib/activation.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/lib/c3p0-0.9.1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/lib/commons-beanutils-1.9.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/lib/commons-dbcp2-2.6.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/lib/commons-dbutils-1.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/lib/commons-email-1.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/lib/commons-io-2.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/lib/druid-1.0.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/lib/httpclient-4.5.8.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/lib/httpcore-4.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/lib/itcast-tools-1.4.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/lib/jackson-annotations-2.2.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/lib/jackson-core-2.2.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/lib/jackson-databind-2.2.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/lib/javax.annotation.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/lib/javax.ejb.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/lib/javax.jms.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/lib/javax.persistence.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/lib/javax.resource.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/lib/javax.servlet.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/lib/javax.servlet.jsp.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/lib/javax.servlet.jsp.jstl.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/lib/javax.transaction.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/lib/jstl-impl.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/lib/mail.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/lib/mchange-commons-java-0.2.12.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/lib/mysql-connector-java-5.1.39-bin.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/lib/spring-beans-5.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/lib/spring-core-5.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/lib/spring-jdbc-5.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/lib/spring-tx-5.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/lib/standard-1.1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/bookcategorypage/academic.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/bookcategorypage/foreignlanguagelearning.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/bookcategorypage/livetolearn.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/bookcategorypage/motivational.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/bookcategorypage/psychology.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/bookcategorypage/socialscience.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/bookcategorypage/technology.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/bookinformation/bookinformation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/bookinformation/bookinformation.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/css/bookinformation.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/css/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/css/bootstrap-theme.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/css/bootstrap-theme.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/css/header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/css/personalcenter.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/css/productdetails.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/css/theshoppingcart.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/footer/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/footer/footer.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/header/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/header/header.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/image/bookstore_logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/image/camera.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/image/collection.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/image/economic_management/economic_management01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/image/help.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/image/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/image/me.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/image/more.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/image/psychology/psychology01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/image/psychology/psychology02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/image/psychology/psychology03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/image/psychology/psychology04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/image/psychology/psychology05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/image/psychology/psychology06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/image/psychology/psychology07.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/image/psychology/psychology08.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/image/psychology/psychology09.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/image/psychology/psychology10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/image/psychology/psychology11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/image/psychology/psychology12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/image/psychology/psychology13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/image/psychology/psychology14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/image/psychology/psychology15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/image/psychology/psychology16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/image/psychology/psychology17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/image/psychology/psychology18.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/image/psychology/psychology19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/image/psychology/psychology20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/image/psychology/psychology21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/image/psychology/psychology22.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/image/psychology/psychology23.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/image/psychology/psychology24.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/image/psychology/psychology25.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/image/search.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/image/searchs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/image/shopping_cart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/image/shufflingfigure01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/image/shufflingfigure02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/image/shufflingfigure03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/image/shufflingfigure04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/image/shufflingfigure05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/image/shufflingfigure06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/js/bookinformation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/js/header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/js/header2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/js/jquery-3.4.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/js/myDate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/js/npm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/js/pageturn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/js/personalcenter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/js/productdetails.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/js/theshoppingcart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/less/animated.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/less/bordered-pulled.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/less/core.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/less/fixed-width.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/less/font-awesome.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/less/icons.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/less/larger.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/less/list.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/less/mixins.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/less/path.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/less/rotated-flipped.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/less/screen-reader.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/less/stacked.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/less/variables.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/personalcenter/personalcenter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/personalcenter/personalcenter.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/productdetails/productdetails.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/productdetails/productdetails.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/scss/_animated.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/scss/_bordered-pulled.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/scss/_core.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/scss/_fixed-width.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/scss/_icons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/scss/_larger.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/scss/_list.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/scss/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/scss/_path.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/scss/_rotated-flipped.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/scss/_screen-reader.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/scss/_stacked.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/scss/font-awesome.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/theshoppingcart/theshoppingcart.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/OnlineBookstore_war_exploded/theshoppingcart/theshoppingcart.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OnlineBookstore/META-INF/OnlineBookstore.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OnlineBookstore/bean/BookInformation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OnlineBookstore/bean/BookUser.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OnlineBookstore/bean/CenterUser.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OnlineBookstore/bean/CenterUsers.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OnlineBookstore/bean/ShoppingCart.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OnlineBookstore/bean/TheShoppingCartBean.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OnlineBookstore/bean/TheShoppingCartFilterBean.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OnlineBookstore/bean/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OnlineBookstore/c3p0-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OnlineBookstore/dao/BaseDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OnlineBookstore/dao/DBUtilsDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OnlineBookstore/dbcpconfig.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OnlineBookstore/eg/Eg01.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OnlineBookstore/util/C3P0JDBCUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OnlineBookstore/util/C3p0Utils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OnlineBookstore/util/Dates.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OnlineBookstore/util/JDBCUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OnlineBookstore/utilityclass/HomePage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OnlineBookstore/web/filter/BookCateGoryPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OnlineBookstore/web/filter/CharchaterFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OnlineBookstore/web/filter/PersonalCenterFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OnlineBookstore/web/filter/TheShoppingCartFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OnlineBookstore/web/servlet/EmailVerificationCode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OnlineBookstore/web/servlet/Exits.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OnlineBookstore/web/servlet/Index.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OnlineBookstore/web/servlet/Paging.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OnlineBookstore/web/servlet/PersonalCenter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OnlineBookstore/web/servlet/Registered.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OnlineBookstore/web/servlet/TheLogin.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OnlineBookstore/web/servlet/TheShoppingCart.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OnlineBookstore/web/servlet/TheShoppingDelete.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bean/BookInformation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bean/BookUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bean/CenterUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bean/CenterUsers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bean/ShoppingCart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bean/TheShoppingCartBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bean/TheShoppingCartFilterBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bean/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/c3p0-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/BaseDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/DBUtilsDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dbcpconfig.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/eg/Eg01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/C3P0JDBCUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/C3p0Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/Dates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/JDBCUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utilityclass/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/web/filter/BookCateGoryPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/web/filter/CharchaterFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/web/filter/PersonalCenterFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/web/filter/TheShoppingCartFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/web/servlet/EmailVerificationCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/web/servlet/Exits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/web/servlet/Index.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/web/servlet/Paging.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/web/servlet/PersonalCenter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/web/servlet/Registered.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/web/servlet/TheLogin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/web/servlet/TheShoppingCart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/web/servlet/TheShoppingDelete.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/bookcategorypage/academic.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/bookcategorypage/foreignlanguagelearning.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/bookcategorypage/livetolearn.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/bookcategorypage/motivational.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/bookcategorypage/psychology.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/bookcategorypage/socialscience.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/bookcategorypage/technology.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/bookinformation/bookinformation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/bookinformation/bookinformation.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/css/bookinformation.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/css/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/css/bootstrap-theme.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/css/bootstrap-theme.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/css/header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/css/personalcenter.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/css/productdetails.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/css/theshoppingcart.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/footer/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/footer/footer.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/header/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/header/header.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/image/bookstore_logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/image/camera.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/image/collection.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/image/economic_management/economic_management01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/image/help.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/image/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/image/me.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/image/more.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/image/psychology/psychology01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/image/psychology/psychology02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/image/psychology/psychology03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/image/psychology/psychology04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/image/psychology/psychology05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/image/psychology/psychology06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/image/psychology/psychology07.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/image/psychology/psychology08.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/image/psychology/psychology09.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/image/psychology/psychology10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/image/psychology/psychology11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/image/psychology/psychology12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/image/psychology/psychology13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/image/psychology/psychology14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/image/psychology/psychology15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/image/psychology/psychology16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/image/psychology/psychology17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/image/psychology/psychology18.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/image/psychology/psychology19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/image/psychology/psychology20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/image/psychology/psychology21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/image/psychology/psychology22.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/image/psychology/psychology23.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/image/psychology/psychology24.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/image/psychology/psychology25.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/image/search.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/image/searchs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/image/shopping_cart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/image/shufflingfigure01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/image/shufflingfigure02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/image/shufflingfigure03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/image/shufflingfigure04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/image/shufflingfigure05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/image/shufflingfigure06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/bookinformation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/header2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/jquery-3.4.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/myDate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/npm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/pageturn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/personalcenter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/productdetails.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/theshoppingcart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/less/animated.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/less/bordered-pulled.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/less/core.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/less/fixed-width.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/less/font-awesome.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/less/icons.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/less/larger.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/less/list.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/less/mixins.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/less/path.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/less/rotated-flipped.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/less/screen-reader.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/less/stacked.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/less/variables.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/personalcenter/personalcenter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/personalcenter/personalcenter.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/productdetails/productdetails.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/productdetails/productdetails.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/scss/_animated.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/scss/_bordered-pulled.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/scss/_core.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/scss/_fixed-width.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/scss/_icons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/scss/_larger.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/scss/_list.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/scss/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/scss/_path.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/scss/_rotated-flipped.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/scss/_screen-reader.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/scss/_stacked.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/scss/font-awesome.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theshoppingcart/theshoppingcart.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theshoppingcart/theshoppingcart.jsp" afterDir="false" />
+    <list default="true" id="3f50d816-b29d-4804-9f58-47de42c3af38" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -502,6 +67,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -598,21 +164,6 @@
             <path>
               <item name="OnlineBookstore" type="b2602c69:ProjectViewProjectNode" />
               <item name="OnlineBookstore" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnlineBookstore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OnlineBookstore" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnlineBookstore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OnlineBookstore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnlineBookstore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OnlineBookstore" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -626,18 +177,21 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Git/Git/bin/git.exe" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.18858308" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -814,12 +368,20 @@
       <workItem from="1561639289192" duration="18184000" />
       <workItem from="1561791840668" duration="6517000" />
       <workItem from="1561960708871" duration="176000" />
-      <workItem from="1568683528117" duration="1280000" />
+      <workItem from="1568683528117" duration="2616000" />
     </task>
+    <task id="LOCAL-00001" summary="OnlineBookstore javaweb版">
+      <created>1568685064181</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1568685064182</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="384031000" />
+    <option name="totallyTimeSpent" value="385367000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -831,7 +393,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="735" extended-state="7" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="Favorites" order="1" sideWeight="0.50825685" side_tool="true" weight="0.25447154" />
@@ -1331,13 +893,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/web/servlet/EmailVerificationCode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="62">
@@ -1437,6 +992,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dbcpconfig.properties">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
